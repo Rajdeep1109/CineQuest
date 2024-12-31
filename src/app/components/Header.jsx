@@ -8,9 +8,9 @@ export default function Header({icon, name}) {
   return (
     <>
     <div className='bg-[#181818] flex justify-start gap-3 p-4'>
-        <Navicons icon={<UilEstate size="38"/>} name={"Home"}/>
-        <Navicons icon={<UilFeedback size="38"/>} name={"Suggestions"}/>
-        <Navicons icon={<UilUser size="38"/>} name={"Account"}/>
+        <Navicons icon={<UilEstate size="38"/>} address="/" name={"Home"}/>
+        <Navicons icon={<UilFeedback size="38"/>} address="/Trending" name={"Suggestions"}/>
+        <Navicons icon={<UilUser size="38"/>} address="/profile" name={"Account"}/>
     </div>
     </>
   )
