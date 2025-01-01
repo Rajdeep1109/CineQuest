@@ -4,7 +4,6 @@ import { UilEstate } from '@iconscout/react-unicons'
 import { UilArrowGrowth } from '@iconscout/react-unicons'
 import { UilUser } from '@iconscout/react-unicons'
 import { UilSearch } from '@iconscout/react-unicons'
-import { useSearchParams } from 'next/navigation'
 
 export default function Header() {
   return (
