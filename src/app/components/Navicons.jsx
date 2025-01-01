@@ -1,12 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
 
-export default function Navicons({name, icon}) {
+export default function Navicons({name,address, icon}) {
   return (
-    <>
-    <div className='flex flex-col items-center justify-center font-medium text-black bg-[#F79F19] rounded-md p-2'>
-    {icon}
-    {name}
-    </div>
-    </>
+    <Link href={address} className='flex flex-col items-center'>
+      {icon}
+      <p className='sm:text-white'>{name}</p>
+    </Link>
   )
 }
